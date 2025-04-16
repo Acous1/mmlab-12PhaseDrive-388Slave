@@ -1,0 +1,9133 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c4a39b9b-204e-46ac-ae12-3739c94fed71")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:Earth_Protective"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth_Protective"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd clean"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_Protective_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -4.445) (xy 0.635 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -5.08) (xy 0.127 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -3.81)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_Protective_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sheet1-altium-import:AGND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "电源符号创建名为 'AGND' 的全局标签"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AGND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sheet1-altium-import:B5819WS_C7420331"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D3"
+				(at -1.524 6.5405 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "B5819WS_C7420331"
+				(at -1.524 4.2291 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "B5819WS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "宏迦橙"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C7420331"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B5819WS_C7420331_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.778) (xy 1.27 0) (xy -1.27 1.778) (xy -1.27 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -1.27) (xy 1.778 -1.778) (xy 1.27 -1.778) (xy 1.27 1.778) (xy 0.762 1.778) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sheet1-altium-import:CAP_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C71"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "0.1uF/50V"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Automotive" "AEC-Q200"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet Link" "\\\\10.30.16.21\\D-UserFiles\\Cadence-share\\CIS_LP\\DATASHEET-New\\电容\\KEMET_MLCC_规格书.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "EBOM Description" "瓷片电容-0.1uF-±10%-50V-X7R-(-55~125℃)-车规-0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.87"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "Implementation Type" "<none>"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "New Part Number" "3.2.04.05.00132"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "Origin Footprint" "0603C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "PCB Footprint" "0603C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "Part State" "已认定"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "瓷片电容"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "Power Pins Visible" "False"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "Primitive" "DEFAULT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "Source Package" "CAP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "priority" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "purpose" "通用"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(property "制造商名称" "MC000042_基美（KEMET）"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+					(hide yes)
+				)
+			)
+			(symbol "CAP_2_1_0"
+				(polyline
+					(pts
+						(xy 1.27 -2.032) (xy 3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.048) (xy 3.81 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.048) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sheet1-altium-import:D+5V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D+5V"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "电源符号创建名为 'D+5V' 的全局标签"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D+5V_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D+5V_1_0"
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "D+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sheet1-altium-import:RES_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10K/1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "ProPrj_bte-easyedapro:"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RES_2_1_0"
+				(rectangle
+					(start 0 -1.778)
+					(end 5.08 -3.302)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sheet1-altium-import:RES_8"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R90"
+				(at 0 -1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "20K/1%"
+				(at 2.54 -1.016 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Automotive" "AEC-Q200"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "EBOM Description" "电阻-20K-±1%-1/10W-(-55~155℃)-车规-0603"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ID" "322"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Implementation Type" "<none>"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "New Part Number" "3.2.03.01.00329"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Origin Footprint" "0603R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "PCB Footprint" "0603R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Part State" "已认定"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "普通电阻"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Power Pins Visible" "False"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Primitive" "DEFAULT"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Source Package" "RES"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "priority" "H"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "purpose" "通用"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "制造商名称" "MC000003_国巨（YAGEO）"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "RES_8_1_0"
+				(rectangle
+					(start 0 -1.778)
+					(end 5.08 -3.302)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sheet1-altium-import:SN74ACT244PWRG4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U23"
+				(at 3.302 -24.13 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SN74ACT244PWRG4"
+				(at 3.302 -26.416 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Lib2ic:TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "SN74ACT244PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TI(德州仪器)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C6930"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74ACT244PWRG4_0_0"
+				(rectangle
+					(start -7.62 13.97)
+					(end 7.62 -19.05)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6.985 13.335)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -10.16 11.43 0)
+					(length 2.54)
+					(name "1A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 8.89 0)
+					(length 2.54)
+					(name "1A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 6.35 0)
+					(length 2.54)
+					(name "1A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "1A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "2A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 2.54)
+					(name "2A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -8.89 0)
+					(length 2.54)
+					(name "2A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -13.97 0)
+					(length 2.54)
+					(name "2OE#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -16.51 0)
+					(length 2.54)
+					(name "1OE#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 16.51 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -21.59 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 11.43 180)
+					(length 2.54)
+					(name "1Y1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 8.89 180)
+					(length 2.54)
+					(name "1Y2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 6.35 180)
+					(length 2.54)
+					(name "1Y3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "1Y4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "2Y1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "2Y2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "2Y3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -8.89 180)
+					(length 2.54)
+					(name "2Y4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74ACT244PWRG4_1_0"
+				(pin input line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "2A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sheet1-altium-import:VDD"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "电源符号创建名为 'VDD' 的全局标签"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sheet1-altium-import:X3025WVS-2*10D-LPSW"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN2"
+				(at -8.2042 21.9329 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "X3025WVS-2*10D-LPSW"
+				(at -8.2042 19.6215 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "X3025WVS-2x10D-LPSW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XKB Connection(中国星坤)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C400375"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "X3025WVS-2*10D-LPSW_0_0"
+				(rectangle
+					(start -5.08 13.97)
+					(end 5.08 -13.97)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 12.7)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 11.43 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 8.89 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 6.35 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -6.35 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -8.89 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -11.43 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 16.51 270)
+					(length 2.54)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -16.51 90)
+					(length 2.54)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 11.43 180)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 8.89 180)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 6.35 180)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -8.89 180)
+					(length 2.54)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -11.43 180)
+					(length 2.54)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 179.07 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00dea7e5-dfd9-49f6-82f3-0a25c38b4b13")
+	)
+	(junction
+		(at 100.33 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "112a3bfb-db76-41c0-a5ff-f0339904fab1")
+	)
+	(junction
+		(at 100.33 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "121a848b-31d0-47ea-a08e-04bac7544f03")
+	)
+	(junction
+		(at 175.26 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "130fc33b-d66d-49cf-a9d8-cf092edb3677")
+	)
+	(junction
+		(at 115.57 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e220dcc-9dba-45db-8e80-5565521edad9")
+	)
+	(junction
+		(at 105.41 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36c0f45a-319a-4c33-b8bb-e7d6e7b37052")
+	)
+	(junction
+		(at 166.37 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cfcd8fb-c344-4235-bd3a-41ddaaf5172a")
+	)
+	(junction
+		(at 170.18 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5606e0c0-ebb1-4663-aeda-8da41822c8d7")
+	)
+	(junction
+		(at 179.07 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56235b23-2396-487b-8fb3-f50dcdd512cc")
+	)
+	(junction
+		(at 170.18 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5674ca25-969c-4024-937d-cd9aaeefeee8")
+	)
+	(junction
+		(at 220.98 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "570b3166-5b77-4677-8b1d-f5cdd05193ce")
+	)
+	(junction
+		(at 220.98 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e076e1e-789c-45bd-8a09-8cc707b21f93")
+	)
+	(junction
+		(at 182.88 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "619a1ec3-1914-42b7-90cd-40d020a5c533")
+	)
+	(junction
+		(at 109.22 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e5e4501-1728-4675-85a4-723a52635aef")
+	)
+	(junction
+		(at 220.98 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "716b858b-d206-4df8-91da-a256675fb6e2")
+	)
+	(junction
+		(at 105.41 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71f13de4-4be3-4919-8354-d4d263f13636")
+	)
+	(junction
+		(at 175.26 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "757c31f7-00b1-4efa-9644-b94c7db35ecb")
+	)
+	(junction
+		(at 162.56 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "792e432b-d87d-4c01-8792-f1cee560f595")
+	)
+	(junction
+		(at 109.22 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dc2430a-15ff-4dd1-a908-0fc21ea38343")
+	)
+	(junction
+		(at 109.22 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97480d9c-57b1-402a-9db8-e6162d181097")
+	)
+	(junction
+		(at 196.85 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aed1fa6f-d401-4b56-9994-01b8d0ffbcd5")
+	)
+	(junction
+		(at 96.52 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0c9e970-667d-48df-b664-00bbd2ed584b")
+	)
+	(junction
+		(at 199.39 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1aea1ff-a5d3-4b14-a9c8-eb899c585228")
+	)
+	(junction
+		(at 113.03 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b561252f-f065-486e-8cae-24cf8217e7be")
+	)
+	(junction
+		(at 96.52 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b71b7caf-42a4-4fc4-9fd6-0a9bbc218ec0")
+	)
+	(junction
+		(at 140.97 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c418024f-73da-4222-95b4-84494642ed56")
+	)
+	(junction
+		(at 162.56 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6b19c8c-5460-4427-b489-8fc7007c2cef")
+	)
+	(junction
+		(at 92.71 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4da69f7-e4e4-4834-aab6-5939c6440cfb")
+	)
+	(junction
+		(at 166.37 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e85ffb6b-e269-4c19-b65d-32b9d9ea9176")
+	)
+	(junction
+		(at 92.71 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd813dee-a4fb-4fb4-a9d6-b94f88984bed")
+	)
+	(no_connect
+		(at 151.13 81.28)
+		(uuid "24ed9868-5ab5-43a4-8dee-3b121a04bbbc")
+	)
+	(no_connect
+		(at 207.01 99.06)
+		(uuid "a521b2f7-141f-40fe-b4c6-08fb1825276c")
+	)
+	(no_connect
+		(at 151.13 93.98)
+		(uuid "d28adc41-56df-449b-8c3a-dd05a0c4d98c")
+	)
+	(wire
+		(pts
+			(xy 237.49 73.66) (xy 214.63 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c12d95-0844-41ef-8ec7-0c7629b98913")
+	)
+	(wire
+		(pts
+			(xy 100.33 107.95) (xy 100.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092c306f-5c08-4292-a128-69771edacb2b")
+	)
+	(wire
+		(pts
+			(xy 130.81 76.2) (xy 96.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a45ac6e-6003-4575-be97-f5577a0b41a5")
+	)
+	(wire
+		(pts
+			(xy 109.22 107.95) (xy 113.03 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba16a0a-8c8d-4eaa-bc2d-82c25241b4d4")
+	)
+	(wire
+		(pts
+			(xy 105.41 107.95) (xy 105.41 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cfac1c3-8ad0-40b1-9b32-7dcf367f455e")
+	)
+	(wire
+		(pts
+			(xy 182.88 109.22) (xy 179.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e2599c-0720-44e8-a7de-257a71d48f2f")
+	)
+	(wire
+		(pts
+			(xy 237.49 71.12) (xy 214.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18545236-0c29-40c9-8f4d-4731c653e076")
+	)
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188b68ba-8117-40b6-b5a2-95eb55089d7c")
+	)
+	(wire
+		(pts
+			(xy 237.49 76.2) (xy 214.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd531af-65dc-4c06-b606-a53208ab5d51")
+	)
+	(wire
+		(pts
+			(xy 92.71 93.98) (xy 92.71 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ad8db3-5d9b-4f3d-bf7d-45a5ef59cab1")
+	)
+	(wire
+		(pts
+			(xy 166.37 96.52) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22caf3a1-71de-4230-be5a-916381acddde")
+	)
+	(wire
+		(pts
+			(xy 170.18 86.36) (xy 185.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f26304-7de4-4fea-b40d-86a4208d7437")
+	)
+	(wire
+		(pts
+			(xy 130.81 93.98) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292e6c6d-65ca-443c-9d41-c5d8294713b3")
+	)
+	(wire
+		(pts
+			(xy 162.56 91.44) (xy 151.13 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bccbb73-4a91-4fa4-a727-6153e67bff1a")
+	)
+	(wire
+		(pts
+			(xy 170.18 86.36) (xy 151.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb1facb-1ca5-47b8-b740-b9d1d9072c29")
+	)
+	(wire
+		(pts
+			(xy 162.56 109.22) (xy 162.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d18511e-f6aa-4806-8a91-66b67b115816")
+	)
+	(wire
+		(pts
+			(xy 182.88 83.82) (xy 199.39 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e745ead-f3f0-4f3f-a77c-00e7bac900a4")
+	)
+	(wire
+		(pts
+			(xy 170.18 109.22) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f49e17-8fed-4dcc-93a6-33911ba02350")
+	)
+	(wire
+		(pts
+			(xy 96.52 107.95) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318a6552-bd3b-42ed-bc79-2d2874f09656")
+	)
+	(wire
+		(pts
+			(xy 58.42 78.74) (xy 100.33 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331144ec-c525-42fb-b532-d4f1f563a900")
+	)
+	(wire
+		(pts
+			(xy 58.42 73.66) (xy 92.71 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35288647-bb84-418e-9585-b52da090d8d8")
+	)
+	(wire
+		(pts
+			(xy 199.39 106.68) (xy 199.39 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353693c8-9c39-48de-a31d-5502edbf94ee")
+	)
+	(wire
+		(pts
+			(xy 199.39 76.2) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "378c872d-fae2-4b53-b8bd-094f5488fec7")
+	)
+	(wire
+		(pts
+			(xy 196.85 67.31) (xy 196.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3b3b3c-aa6a-4e1d-9b4a-192401ed7cd5")
+	)
+	(wire
+		(pts
+			(xy 96.52 93.98) (xy 96.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf72740-6dad-4b3e-8434-11f4ca0ca6d6")
+	)
+	(wire
+		(pts
+			(xy 179.07 76.2) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1c695d-3c26-4bae-bd23-f7f4f9bfd66e")
+	)
+	(wire
+		(pts
+			(xy 58.42 76.2) (xy 96.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41330749-4f1b-451a-9a0f-5c9172a8daf5")
+	)
+	(wire
+		(pts
+			(xy 220.98 91.44) (xy 214.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45085016-4790-4137-a836-4c45f140927e")
+	)
+	(wire
+		(pts
+			(xy 199.39 73.66) (xy 196.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46dd08ed-c4f9-4bd9-a90b-a5aca1addf1a")
+	)
+	(wire
+		(pts
+			(xy 130.81 91.44) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aaa32f7-909c-477d-909b-c49d76aa3383")
+	)
+	(wire
+		(pts
+			(xy 114.3 81.28) (xy 130.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab2ad27-3882-4560-a59b-cc8dfee3f741")
+	)
+	(wire
+		(pts
+			(xy 58.42 116.84) (xy 81.28 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba26beb-3cd2-4d55-b788-b40fd5325ce1")
+	)
+	(wire
+		(pts
+			(xy 143.51 59.69) (xy 140.97 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eaf3930-4ed4-481a-90a4-cf324b31c7d8")
+	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 130.81 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5180a50f-b053-4e7c-afb6-b6857ab76787")
+	)
+	(wire
+		(pts
+			(xy 113.03 107.95) (xy 113.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5329330b-3e7a-435b-a518-6ac1ae5d0791")
+	)
+	(wire
+		(pts
+			(xy 109.22 116.84) (xy 109.22 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585fcd67-73a9-40a6-bd14-dd94de2a2304")
+	)
+	(wire
+		(pts
+			(xy 179.07 106.68) (xy 179.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586a5fc2-b62e-405f-842a-dade9526ea4e")
+	)
+	(wire
+		(pts
+			(xy 179.07 81.28) (xy 199.39 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb0eaf4-9aae-4be5-bd67-106cf2b9a282")
+	)
+	(wire
+		(pts
+			(xy 214.63 86.36) (xy 220.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce976f6-0e33-4264-b04b-236037e58e29")
+	)
+	(wire
+		(pts
+			(xy 190.5 76.2) (xy 190.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe9a5ef-7ce3-4f5a-927b-e1bca1b3e2b0")
+	)
+	(wire
+		(pts
+			(xy 220.98 106.68) (xy 199.39 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623f9259-e9f6-447a-97ea-c6144e956dbd")
+	)
+	(wire
+		(pts
+			(xy 179.07 96.52) (xy 179.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6642ca35-b2af-4e3f-bde7-a62752030ab4")
+	)
+	(wire
+		(pts
+			(xy 153.67 63.5) (xy 153.67 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6813123e-732c-45e7-91b3-c607dc979a9d")
+	)
+	(wire
+		(pts
+			(xy 237.49 81.28) (xy 214.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "684238dd-55c6-4ad3-9920-e7ab370f15f1")
+	)
+	(wire
+		(pts
+			(xy 179.07 109.22) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699d6dae-5ab1-4756-9560-69248d0b668d")
+	)
+	(wire
+		(pts
+			(xy 100.33 78.74) (xy 100.33 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd2b939-573e-4b82-a921-179eccc866ae")
+	)
+	(wire
+		(pts
+			(xy 58.42 88.9) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c56404-8488-40f8-b022-e699f1dbefdf")
+	)
+	(wire
+		(pts
+			(xy 170.18 96.52) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752879a4-d2eb-443c-a629-7daa3abdfc2f")
+	)
+	(wire
+		(pts
+			(xy 199.39 92.71) (xy 199.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c7e3ce-6a03-4b7f-bdbe-33b41f14f3ab")
+	)
+	(wire
+		(pts
+			(xy 58.42 91.44) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2f0412-c47c-41bb-9f44-e7acd9d4d334")
+	)
+	(wire
+		(pts
+			(xy 220.98 93.98) (xy 220.98 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa7c4d5-e340-4dc1-9c73-b7947bcad1d4")
+	)
+	(wire
+		(pts
+			(xy 92.71 107.95) (xy 92.71 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802f0f06-7b3c-48e8-8273-a4a8565b0613")
+	)
+	(wire
+		(pts
+			(xy 109.22 107.95) (xy 109.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8175d1d8-880f-4e3f-a4f1-10b7fce8fb97")
+	)
+	(wire
+		(pts
+			(xy 130.81 99.06) (xy 118.11 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f5978c-892a-4d35-8707-07c0c23c15db")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 151.13 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830cdd8a-9b32-4abb-8b1a-e55a14035d6c")
+	)
+	(wire
+		(pts
+			(xy 182.88 106.68) (xy 182.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8835b7e7-cf59-4955-b3b4-dc4f4f3e2edd")
+	)
+	(wire
+		(pts
+			(xy 220.98 88.9) (xy 220.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c217c6b-e4b2-44f3-8e62-f2e848c13f30")
+	)
+	(wire
+		(pts
+			(xy 196.85 71.12) (xy 199.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d354f5b-2baf-4458-a16d-6306b9aab1f3")
+	)
+	(wire
+		(pts
+			(xy 118.11 99.06) (xy 118.11 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0e7dc1-e40c-4166-a271-b9448097576b")
+	)
+	(wire
+		(pts
+			(xy 91.44 111.76) (xy 115.57 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7cb3e9-5832-4755-8842-14ad66ccdd97")
+	)
+	(wire
+		(pts
+			(xy 182.88 83.82) (xy 182.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e2e8e2-8025-471a-a7da-a917a905681b")
+	)
+	(wire
+		(pts
+			(xy 130.81 88.9) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e49811-a914-46e8-b3a8-fd000ee1262b")
+	)
+	(wire
+		(pts
+			(xy 105.41 107.95) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d6e0b9-2b56-4c50-aade-895cad0503be")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 175.26 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b62853-1055-4ea2-aba1-0c2614fd99c2")
+	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 151.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9378d227-c85f-4ccd-8f80-619c117c7603")
+	)
+	(wire
+		(pts
+			(xy 130.81 78.74) (xy 100.33 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95105b37-629f-40e3-8eef-449a22b8e57f")
+	)
+	(wire
+		(pts
+			(xy 175.26 109.22) (xy 170.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953cab73-286d-4066-9b2d-ed0802a470d6")
+	)
+	(wire
+		(pts
+			(xy 214.63 88.9) (xy 220.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97409636-6a90-4fae-800a-314502d575d3")
+	)
+	(wire
+		(pts
+			(xy 166.37 88.9) (xy 151.13 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd8a326-4293-46bc-abf9-39f35de045a6")
+	)
+	(wire
+		(pts
+			(xy 185.42 92.71) (xy 199.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3be951-25cf-4d1f-890b-4e0704ae7a5c")
+	)
+	(wire
+		(pts
+			(xy 220.98 86.36) (xy 220.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b4cdeb-8798-4b06-921b-f2618d670abb")
+	)
+	(wire
+		(pts
+			(xy 196.85 73.66) (xy 196.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e902ed-0c6d-404b-bee6-0cdd0d9ef3a9")
+	)
+	(wire
+		(pts
+			(xy 220.98 91.44) (xy 220.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f1d41a-8f9b-45b4-af3c-33bd7ee1fe70")
+	)
+	(wire
+		(pts
+			(xy 179.07 81.28) (xy 179.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a742886c-a690-41aa-a0cb-37ad627b8b3f")
+	)
+	(wire
+		(pts
+			(xy 91.44 116.84) (xy 109.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f5f2a9-305c-4ad5-9525-60c8367a0b24")
+	)
+	(wire
+		(pts
+			(xy 96.52 104.14) (xy 96.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4c8278-e8d8-4af0-98c3-2f7e3e73b56a")
+	)
+	(wire
+		(pts
+			(xy 199.39 93.98) (xy 199.39 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4fd018-3dcf-4baf-9c10-961add9dd97e")
+	)
+	(wire
+		(pts
+			(xy 166.37 106.68) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afddba66-4331-4e4a-af8b-df9de724f2e0")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 199.39 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13e897a-c7f4-4577-8ac7-b51d5b15a25f")
+	)
+	(wire
+		(pts
+			(xy 140.97 107.95) (xy 140.97 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ca4bc4-9c28-4231-833b-b64bf6fbbdea")
+	)
+	(wire
+		(pts
+			(xy 162.56 111.76) (xy 162.56 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d7b278-a2e3-483f-ad90-67c3446b7725")
+	)
+	(wire
+		(pts
+			(xy 237.49 78.74) (xy 214.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6469a44-e057-4581-bb2a-b6f4cd806b3c")
+	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b949f691-9cb8-49f6-955c-7cee09d0a3ab")
+	)
+	(wire
+		(pts
+			(xy 90.17 107.95) (xy 92.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c81fdb-f907-401f-ba2a-d5ccf441c43a")
+	)
+	(wire
+		(pts
+			(xy 166.37 88.9) (xy 199.39 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc77aca8-e67c-4f9e-a6c2-5addb3145cd3")
+	)
+	(wire
+		(pts
+			(xy 185.42 86.36) (xy 185.42 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11f12cb-b757-46e4-8b6e-99c02a2ef047")
+	)
+	(wire
+		(pts
+			(xy 58.42 111.76) (xy 81.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12aa64a-3526-41c1-83bb-43257365c043")
+	)
+	(wire
+		(pts
+			(xy 140.97 59.69) (xy 140.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c224ed11-ca87-4fcd-a58b-5ca4dbde4fe0")
+	)
+	(wire
+		(pts
+			(xy 175.26 106.68) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2854434-997d-4600-b590-571eef81c16b")
+	)
+	(wire
+		(pts
+			(xy 100.33 107.95) (xy 105.41 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2fb91ec-dab6-4a93-8989-bd537b6814a0")
+	)
+	(wire
+		(pts
+			(xy 118.11 111.76) (xy 115.57 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c959225c-2eb0-4fe5-b36d-8e71537e55c4")
+	)
+	(wire
+		(pts
+			(xy 109.22 93.98) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cacbee23-c84a-45cc-8bdb-e648e7ca84ef")
+	)
+	(wire
+		(pts
+			(xy 162.56 96.52) (xy 162.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3d1c05-7d74-463c-9b94-38622710befb")
+	)
+	(wire
+		(pts
+			(xy 237.49 83.82) (xy 214.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1ee02a-d0a7-4fb3-a33f-77eaf318d329")
+	)
+	(wire
+		(pts
+			(xy 92.71 107.95) (xy 96.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d139c055-f3dc-47c6-803e-eaa399a5ccb1")
+	)
+	(wire
+		(pts
+			(xy 187.96 91.44) (xy 162.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fd3759-74b7-42e4-a33e-cf3d4b955be6")
+	)
+	(wire
+		(pts
+			(xy 105.41 93.98) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81487b9-6d95-4a57-bdcd-9663989f7861")
+	)
+	(wire
+		(pts
+			(xy 130.81 116.84) (xy 109.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8df938b-95dc-4fd2-918b-ea61aee67f57")
+	)
+	(wire
+		(pts
+			(xy 140.97 59.69) (xy 140.97 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9366939-d00d-4e70-a2f7-d40ea945138e")
+	)
+	(wire
+		(pts
+			(xy 220.98 93.98) (xy 214.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc77b1a7-910c-44ba-92aa-b30f761cb6c8")
+	)
+	(wire
+		(pts
+			(xy 130.81 73.66) (xy 92.71 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e608bf01-d5fd-4496-a320-b72785473d57")
+	)
+	(wire
+		(pts
+			(xy 130.81 86.36) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72c096f-143f-4aa4-908e-f48da723678d")
+	)
+	(wire
+		(pts
+			(xy 58.42 86.36) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae4b849-1b6d-4f7f-bda1-fb2dbdea66c9")
+	)
+	(wire
+		(pts
+			(xy 170.18 106.68) (xy 170.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4668fa-56db-4488-98c0-f7ac2e59b7d9")
+	)
+	(wire
+		(pts
+			(xy 166.37 109.22) (xy 162.56 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d4b67c-a897-4fd9-86fc-123cf8fe5c44")
+	)
+	(wire
+		(pts
+			(xy 115.57 111.76) (xy 115.57 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47ffed7-c47a-41b4-99e9-45457269cd5a")
+	)
+	(wire
+		(pts
+			(xy 187.96 86.36) (xy 199.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f3ae1a-03a7-4a16-ae36-b835f14c7248")
+	)
+	(wire
+		(pts
+			(xy 187.96 86.36) (xy 187.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3e4121-6583-404b-ad7f-872b8a31e6d3")
+	)
+	(hierarchical_label "IPM_Temperature"
+		(shape input)
+		(at 237.49 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3328973f-8c48-4359-b1b0-64f0e1e6e787")
+	)
+	(hierarchical_label "DSP_PWM_~{FAULT}"
+		(shape input)
+		(at 58.42 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a84143b-f35e-4761-b892-10368357883e")
+	)
+	(hierarchical_label "DSP-PWM1B"
+		(shape input)
+		(at 58.42 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f34681c-a5f1-4d3b-bc55-ee56975b0b92")
+	)
+	(hierarchical_label "DSP-PWM3A"
+		(shape input)
+		(at 58.42 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fc36d89-b15d-42c7-9e35-4d6d932ade1c")
+	)
+	(hierarchical_label "DSP-PWM2A"
+		(shape input)
+		(at 58.42 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7598fa79-a4c1-4ad5-b653-5f150c51a4c2")
+	)
+	(hierarchical_label "ADC_CLK"
+		(shape input)
+		(at 237.49 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82dac97a-c1b8-4977-97b7-a66ae7b199f0")
+	)
+	(hierarchical_label "DSP_Discharge_EN"
+		(shape input)
+		(at 237.49 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ae50f6f-8c3c-4b6e-b26f-ea16c277dbdf")
+	)
+	(hierarchical_label "DSP-PWM1A"
+		(shape input)
+		(at 58.42 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9283232-c691-40c2-ab99-1b07116fc4e5")
+	)
+	(hierarchical_label "ADC_DO_W"
+		(shape input)
+		(at 237.49 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7eadf3f-7969-4079-94ce-9312b18eeed7")
+	)
+	(hierarchical_label "DSP-PWM2B"
+		(shape input)
+		(at 58.42 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0794563-e08a-4877-aa8c-d74a2d99b636")
+	)
+	(hierarchical_label "DSP-PWM3B"
+		(shape input)
+		(at 58.42 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ecd66ce3-9777-4695-85ee-77d5ff755c65")
+	)
+	(hierarchical_label "ADC_DO_V"
+		(shape input)
+		(at 237.49 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "edc65d22-a18e-481e-89d0-b63c55532700")
+	)
+	(hierarchical_label "DSP_PWM~{_ENABL}E"
+		(shape input)
+		(at 58.42 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3cdcd9c-7f9e-494e-9b47-2444bf034a95")
+	)
+	(hierarchical_label "IPM_VDC_BUS"
+		(shape input)
+		(at 237.49 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f764b30f-7642-4afa-9e26-2ab56a7152de")
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:SN74ACT244PWRG4")
+		(at 140.97 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01e7e7b3-7929-40eb-bed0-9bc6dd6b2acd")
+		(property "Reference" "Q?"
+			(at 132.842 113.284 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "SN74ACT244PWRG4"
+			(at 132.842 115.57 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib2ic:TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SN74ACT244PWR"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C6930"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f7fe39a-ac5a-4ba6-9829-abf2a60f82cd")
+		)
+		(pin "10"
+			(uuid "58f51da7-1fd1-4479-8312-bfeda287b1fb")
+		)
+		(pin "11"
+			(uuid "3b413449-d391-4390-8346-509e3c5c29ca")
+		)
+		(pin "13"
+			(uuid "520c64f5-fdfb-4b62-9f08-6ccc6cd8656c")
+		)
+		(pin "14"
+			(uuid "40808a81-db90-45c1-ae25-a35f8beb674c")
+		)
+		(pin "15"
+			(uuid "64b8d34f-996e-4f9d-bb70-1a1e8ab6e1c0")
+		)
+		(pin "12"
+			(uuid "4e804757-11cb-49f6-8259-eb27e68f2c3a")
+		)
+		(pin "8"
+			(uuid "3366b518-c8d9-4362-92b9-4aee0f930039")
+		)
+		(pin "16"
+			(uuid "c5189507-9172-4aab-8141-81f9e37f57e1")
+		)
+		(pin "19"
+			(uuid "5417247f-1271-4e4d-82f4-0768b416a286")
+		)
+		(pin "4"
+			(uuid "d38dfd8d-27d1-4123-83da-9600a7eccd89")
+		)
+		(pin "6"
+			(uuid "579eab36-a1a7-46c0-a9df-1778a28917e1")
+		)
+		(pin "20"
+			(uuid "049c61eb-6f5b-4653-83ad-90642238fa13")
+		)
+		(pin "2"
+			(uuid "6e924da0-7c88-401b-81cf-1d9bdc35f78c")
+		)
+		(pin "3"
+			(uuid "e0945ce3-b331-4d53-bf84-c0e9aa0dd529")
+		)
+		(pin "9"
+			(uuid "0a0204b4-a66e-4234-8427-6b6114de59ef")
+		)
+		(pin "17"
+			(uuid "6501c847-fcd0-4b7c-9229-32445e02e133")
+		)
+		(pin "18"
+			(uuid "1d44a815-b059-4f40-8dce-e69927268b3c")
+		)
+		(pin "5"
+			(uuid "6b5c36ba-2bde-406e-a848-60e51ac5f760")
+		)
+		(pin "7"
+			(uuid "8eeee471-38c9-4228-8429-860f838995e3")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:CAP_2")
+		(at 151.13 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "020ece03-7ed2-490a-a30a-ddbcbfdfdf0c")
+		(property "Reference" "C?"
+			(at 147.828 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "0.1uF/50V"
+			(at 161.798 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.30.16.21\\D-UserFiles\\Cadence-share\\CIS_LP\\DATASHEET-New\\电容\\KEMET_MLCC_规格书.PDF"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "瓷片电容-0.1uF-±10%-50V-X7R-(-55~125℃)-车规-0603"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.87"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.04.05.00132"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603C"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603C"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "瓷片电容"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "CAP"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000042_基美（KEMET）"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68925d09-690c-40e0-941e-fcd1dd745510")
+		)
+		(pin "1"
+			(uuid "ebdd74eb-b32b-46ca-92b9-0c38c09b9f40")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 107.95 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e623794-d6cd-49be-8493-325f17817afc")
+		(property "Reference" "R?"
+			(at 103.886 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 103.632 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 107.95 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0bc0aaf-db08-42a7-88c0-c7983f7d1a1d")
+		)
+		(pin "2"
+			(uuid "f798084d-55f6-426f-8e75-873173186e6e")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 111.76 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bb15b60-df89-433e-a6f9-26ff41c2bd19")
+		(property "Reference" "R?"
+			(at 107.696 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 107.442 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "414bab10-9d2e-40b5-b6e8-f8b35138e314")
+		)
+		(pin "2"
+			(uuid "9a43fd37-127e-487f-8278-39e5d95d970a")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:AGND")
+		(at 162.56 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cd3e633-a4ce-4851-a198-96664d7437a4")
+		(property "Reference" "#PWR?"
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 'AGND' 的全局标签"
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "98b99153-dc89-415c-8229-b4b363c44458")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 102.87 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e3b1d6d-74a7-4864-8ca4-eb3471315826")
+		(property "Reference" "R?"
+			(at 98.806 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 98.552 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 102.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 102.87 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7817f04f-a1f6-4bd5-9199-1412d7017465")
+		)
+		(pin "2"
+			(uuid "304b1194-5ad1-4a0b-8226-4718a0723c09")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:X3025WVS-2*10D-LPSW")
+		(at 207.01 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41d07e49-223e-474b-b06d-9294b2a33169")
+		(property "Reference" "CN?"
+			(at 189.484 51.308 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "X3025WVS-2*10D-LPSW"
+			(at 184.658 55.118 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:CONN-SMD_20P-P3.00_X3025WVS-2-10D-LPSW"
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "X3025WVS-2x10D-LPSW"
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connection(中国星坤)"
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C400375"
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c7ca4d1-53d0-47d5-ae3f-a098d98e57d0")
+		)
+		(pin "2"
+			(uuid "0990cc86-4368-4e5a-9493-38afa41084b1")
+		)
+		(pin "5"
+			(uuid "291ebc55-add8-48cf-aab1-950053ecb783")
+		)
+		(pin "4"
+			(uuid "e3841aab-8370-490e-8fd4-a6dc173e7f97")
+		)
+		(pin "3"
+			(uuid "a47ce25b-4d8a-4940-a3bc-5236c54f5503")
+		)
+		(pin "18"
+			(uuid "a3e65d9e-0920-4d50-88d0-63dd63debe9a")
+		)
+		(pin "20"
+			(uuid "903dc211-82d8-4176-af9c-2316a2b00683")
+		)
+		(pin "16"
+			(uuid "c8f06ab2-0fac-49d1-94b1-446d784f6a1a")
+		)
+		(pin "17"
+			(uuid "fc95f638-6dc7-4a7a-bff3-bf51b6d936b2")
+		)
+		(pin "19"
+			(uuid "39507fb6-5c01-4107-b935-5dece834fa32")
+		)
+		(pin "11"
+			(uuid "be903cb8-8a68-4a18-910b-cf87f6e9dc6c")
+		)
+		(pin "15"
+			(uuid "09a10580-6436-4381-bd8a-d4db2cb6c428")
+		)
+		(pin "13"
+			(uuid "494340c8-a7b9-4230-b767-5840befb2fd1")
+		)
+		(pin "14"
+			(uuid "fa0dd3a3-3484-4a49-a269-799585e4a5a6")
+		)
+		(pin "12"
+			(uuid "e4385520-cda5-4fb7-8bc3-9cde3b6c2339")
+		)
+		(pin "21"
+			(uuid "134beb88-5da0-4e32-a3a4-ff82a56ab80a")
+		)
+		(pin "8"
+			(uuid "b077cfe9-9ee8-455a-8d6b-ce42c33bda3a")
+		)
+		(pin "6"
+			(uuid "4ebcc006-dfb0-454b-9c8b-a310af5e7a6e")
+		)
+		(pin "10"
+			(uuid "a2d679c3-29bf-47bc-9811-228f5a8b3bb7")
+		)
+		(pin "22"
+			(uuid "570d3df8-1e0e-4329-b501-d8e976f88ada")
+		)
+		(pin "7"
+			(uuid "fd8d8a49-8a73-46d2-b527-d2a419a5fce5")
+		)
+		(pin "9"
+			(uuid "8eba7388-e3f4-4044-8799-d73eebc12938")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "CN?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "CN?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "CN?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "CN?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:VDD")
+		(at 190.5 67.31 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47ca49d5-7e3a-427c-b5ee-bc15602715ce")
+		(property "Reference" "#PWR?"
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 192.786 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 'VDD' 的全局标签"
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bee44164-ef31-4bd6-94e6-f36de2805b0f")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 115.57 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4896388a-5c6e-4682-bb65-0879a7d6e2cd")
+		(property "Reference" "R?"
+			(at 111.506 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 111.252 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5783287-ba8a-4577-a05b-3bf9d0eae934")
+		)
+		(pin "2"
+			(uuid "83858eb6-7d67-47db-a7b5-3a3006496046")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 177.8 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e4b737f-a367-4d05-b89b-aa4b31a8152e")
+		(property "Reference" "R?"
+			(at 173.736 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 173.482 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 177.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8c74481-aec0-42f0-a3f2-e6f06c8dbba8")
+		)
+		(pin "2"
+			(uuid "d75084c6-0d44-4a35-891a-9f3e3a2166f5")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:AGND")
+		(at 114.3 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5444d416-f9c1-4e39-b01a-3cc1d907b9bd")
+		(property "Reference" "#PWR?"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 'AGND' 的全局标签"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e93d161f-2a00-4f10-8a3b-5a2c9aead406")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:AGND")
+		(at 199.39 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "549fafc2-a695-434d-8f1c-a6ad79ab009a")
+		(property "Reference" "#PWR?"
+			(at 199.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 205.74 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 'AGND' 的全局标签"
+			(at 199.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "771dd07e-5570-4f36-b8eb-20f85b480e42")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 99.06 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57efa11f-cd6a-47d1-944c-eeaac4b68681")
+		(property "Reference" "R?"
+			(at 94.996 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 94.742 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 99.06 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 99.06 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74305130-6a0c-41ed-8e43-c252bb2a859f")
+		)
+		(pin "2"
+			(uuid "e3c15abc-07ff-4983-a35c-060a9e5fe8ec")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 168.91 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b7cbb87-8011-4750-a6d1-69de99781e8e")
+		(property "Reference" "R?"
+			(at 164.846 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 164.592 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 168.91 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e8a3cdb-27f1-45d1-9f94-430e86aab197")
+		)
+		(pin "2"
+			(uuid "05165dbc-3206-447d-9ea6-e185b1b73639")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:D+5V")
+		(at 140.97 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f0332db-c542-456b-a8f6-3b1c403ba636")
+		(property "Reference" "#PWR?"
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "D+5V_"
+			(at 140.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 'D+5V' 的全局标签"
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "489b8a45-1e97-4444-9161-d4a27a6bd3ea")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:AGND")
+		(at 115.57 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83769ed5-0e4e-48b6-b04b-673b7e920eb4")
+		(property "Reference" "#PWR?"
+			(at 115.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 121.92 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 'AGND' 的全局标签"
+			(at 115.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "84fe74fd-d5c2-4580-890d-8694c1634aac")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_8")
+		(at 111.76 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9325b851-bff7-42ff-b8f8-28d65cec84e7")
+		(property "Reference" "R?"
+			(at 104.648 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "20K/1%"
+			(at 104.648 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-20K-±1%-1/10W-(-55~155℃)-车规-0603"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "322"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00329"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e485a13-591b-4e5d-b36e-7913334abe63")
+		)
+		(pin "1"
+			(uuid "3146170e-9e7e-4d3f-92b0-3b29edf1dc01")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 185.42 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a70e212b-1d6a-4c14-89c4-73ad5a8d9c9f")
+		(property "Reference" "R?"
+			(at 181.356 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 181.102 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcb6a845-92c0-46e4-9735-d7073a3ad433")
+		)
+		(pin "2"
+			(uuid "ea1ca270-ad2f-417f-869a-7be102fdd8bc")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:D+5V")
+		(at 196.85 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8e234bc-f90f-4d2a-b164-3522fe4e608c")
+		(property "Reference" "#PWR?"
+			(at 196.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "D+5V_"
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 'D+5V' 的全局标签"
+			(at 196.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9ef3adac-b915-480e-bb94-429c7ebbc561")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth_Protective")
+		(at 207.01 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a910d34a-4463-4c41-9192-565d2dd5bc3c")
+		(property "Reference" "#PWR05"
+			(at 207.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PE_GND"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
+			(at 207.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccbfe385-15bf-4bd1-975f-3e3cdfcccd31")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:AGND")
+		(at 119.38 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abb77eed-0cb9-4f88-9f65-f35fa874e925")
+		(property "Reference" "#PWR?"
+			(at 119.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 124.46 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 'AGND' 的全局标签"
+			(at 119.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f50a5fcc-6820-436a-acdb-2c6e7c76ef80")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 165.1 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfcc0453-ada6-49bf-9ac7-399368ca52d3")
+		(property "Reference" "R?"
+			(at 161.036 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 160.782 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 165.1 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7839bd1a-2b36-4256-ae13-6db36f8af6ad")
+		)
+		(pin "2"
+			(uuid "23a86911-8b05-481f-993d-38f5bc2a339e")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:AGND")
+		(at 109.22 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9de3f5c-0936-4638-abcc-3667b223fdb8")
+		(property "Reference" "#PWR?"
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 104.394 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 'AGND' 的全局标签"
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5c2556e8-a775-4e08-b75c-96d5111a52ff")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:AGND")
+		(at 140.97 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce0ea690-c18f-4d12-b975-9da9b64a0e90")
+		(property "Reference" "#PWR?"
+			(at 140.97 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 147.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 'AGND' 的全局标签"
+			(at 140.97 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "86f00f8c-cd91-449e-aaa7-307bcb27e067")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:B5819WS_C7420331")
+		(at 86.36 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4518229-d933-419e-a422-c17c1c81c294")
+		(property "Reference" "D?"
+			(at 80.772 117.602 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "B5819WS"
+			(at 89.154 117.602 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:SOD-323_L1.7-W1.3-LS2.5-FD"
+			(at 86.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "B5819WS"
+			(at 86.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "宏迦橙"
+			(at 86.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C7420331"
+			(at 86.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 86.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05a7c4ef-e31d-4992-8c44-378a378cf10d")
+		)
+		(pin "2"
+			(uuid "06d5bca6-d57e-4818-bdac-1ee7de2ea8df")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_8")
+		(at 118.11 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "daf95232-c95d-46b4-8012-f501d4e9330f")
+		(property "Reference" "R?"
+			(at 110.998 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "20K/1%"
+			(at 110.998 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-20K-±1%-1/10W-(-55~155℃)-车规-0603"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "322"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00329"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 118.11 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6caf80fb-2c68-4abe-b394-5367f3bb7462")
+		)
+		(pin "1"
+			(uuid "159f31e1-103b-498a-9b3c-2c6d3983c4b3")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 95.25 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e35d64cb-6050-439c-9a35-1a3ca1078ec0")
+		(property "Reference" "R?"
+			(at 91.186 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 90.932 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca39f3a7-76d8-4986-9abc-927a1940decb")
+		)
+		(pin "2"
+			(uuid "d68bfe2b-f070-4d46-b2b1-024d4605ee46")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 181.61 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5b4b3b9-4651-42e7-89b3-78b92115825a")
+		(property "Reference" "R?"
+			(at 177.546 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 177.292 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 181.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99443c7a-264a-4904-8abd-a0fab3939a6c")
+		)
+		(pin "2"
+			(uuid "e94732f3-feca-42e4-9233-500add6b1ced")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 172.72 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6924a66-dac3-4522-b1e9-c7ac16394a11")
+		(property "Reference" "R?"
+			(at 168.656 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 168.402 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 172.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e6a1fea-0c6a-4c10-b259-ee1a2b1e5d81")
+		)
+		(pin "2"
+			(uuid "eb92f982-f3ae-4013-bbb6-ae3d36efa93d")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:AGND")
+		(at 153.67 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7249669-d102-4bda-bc70-42ff2ac9b8dd")
+		(property "Reference" "#PWR?"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 'AGND' 的全局标签"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7115aaf8-77e9-4a0a-99e8-46c029e89802")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:B5819WS_C7420331")
+		(at 86.36 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa4a6b3d-7b87-42ef-90b2-1e4f1312e86e")
+		(property "Reference" "D?"
+			(at 80.772 112.522 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "B5819WS"
+			(at 89.154 112.522 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:SOD-323_L1.7-W1.3-LS2.5-FD"
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "B5819WS"
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "宏迦橙"
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C7420331"
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ebb8e45-438f-429a-94de-192c9e5a31be")
+		)
+		(pin "2"
+			(uuid "42f29f5b-4da8-40ab-b2d5-6d76b2b03d7c")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:AGND")
+		(at 90.17 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd252f5b-0221-484f-8735-df6bf02cb3a9")
+		(property "Reference" "#PWR?"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 85.598 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 'AGND' 的全局标签"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "79934538-02fa-46a4-ba1b-b15741e7ea40")
+		)
+		(instances
+			(project "sheet1"
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/6c89ebf2-c744-4e3f-a9d9-2f132998e222"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/ac4260e5-405e-4b4f-b52c-183457c24201"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/aef01707-20b0-4ed7-85b8-85fd93bcf4e6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/fe26dd6f-b628-4296-9a1b-6ba192cb3a8d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
