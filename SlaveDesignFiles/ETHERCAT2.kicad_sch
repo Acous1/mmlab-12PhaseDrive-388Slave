@@ -13933,7 +13933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc3b140e-3f04-4ad7-99fd-26e583e4dad8")
-		(property "Reference" "Q26"
+		(property "Reference" "Q18"
 			(at 93.98 50.8 0)
 			(effects
 				(font
@@ -14148,7 +14148,7 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/49c4ce84-2d31-456a-8e91-ba3517e8f87a"
-					(reference "Q26")
+					(reference "Q18")
 					(unit 1)
 				)
 			)

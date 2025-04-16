@@ -7010,7 +7010,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4be455a0-aa8b-493e-ade8-1a40b6430590")
-		(property "Reference" "Q36"
+		(property "Reference" "Q22"
 			(at 102.7684 41.0337 0)
 			(effects
 				(font
@@ -7111,11 +7111,11 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/032c7b12-abe7-49c0-bf87-4f9652e41bfa"
-					(reference "Q40")
+					(reference "Q24")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/48c092ad-bff6-4c71-add6-c61e4021ba6b"
-					(reference "Q36")
+					(reference "Q22")
 					(unit 1)
 				)
 			)
@@ -7131,7 +7131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5af11af8-fb49-4aa7-a52a-3017d02b95d2")
-		(property "Reference" "Q38"
+		(property "Reference" "L15"
 			(at 200.914 102.616 0)
 			(effects
 				(font
@@ -7229,11 +7229,11 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/032c7b12-abe7-49c0-bf87-4f9652e41bfa"
-					(reference "Q42")
+					(reference "L16")
 					(unit 0)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/48c092ad-bff6-4c71-add6-c61e4021ba6b"
-					(reference "Q38")
+					(reference "L15")
 					(unit 0)
 				)
 			)
@@ -7500,7 +7500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D+5V_"
+		(property "Value" "D+5V"
 			(at 137.16 66.04 0)
 			(effects
 				(font
@@ -8867,7 +8867,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88717a68-bd81-40bd-bcbe-21fde8c6f990")
-		(property "Reference" "Q35"
+		(property "Reference" "Q21"
 			(at 99.568 74.93 0)
 			(effects
 				(font
@@ -9045,11 +9045,11 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/032c7b12-abe7-49c0-bf87-4f9652e41bfa"
-					(reference "Q39")
+					(reference "Q23")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/48c092ad-bff6-4c71-add6-c61e4021ba6b"
-					(reference "Q35")
+					(reference "Q21")
 					(unit 1)
 				)
 			)
@@ -9549,7 +9549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D+5V_"
+		(property "Value" "D+5V"
 			(at 45.72 49.53 0)
 			(effects
 				(font
@@ -10246,7 +10246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D+5V_"
+		(property "Value" "D+5V"
 			(at 127 67.31 0)
 			(effects
 				(font
@@ -10376,7 +10376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de9a2c3e-c605-476f-9494-fc65d284cc0f")
-		(property "Reference" "Q37"
+		(property "Reference" "D15"
 			(at 183.896 92.71 90)
 			(effects
 				(font
@@ -10471,11 +10471,11 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/032c7b12-abe7-49c0-bf87-4f9652e41bfa"
-					(reference "Q41")
+					(reference "D16")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/48c092ad-bff6-4c71-add6-c61e4021ba6b"
-					(reference "Q37")
+					(reference "D15")
 					(unit 1)
 				)
 			)

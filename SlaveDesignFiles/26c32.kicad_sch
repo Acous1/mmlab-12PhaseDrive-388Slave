@@ -5416,7 +5416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D+5V_"
+		(property "Value" "D+5V"
 			(at 142.24 53.34 0)
 			(effects
 				(font
@@ -5477,7 +5477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1994db18-5947-4ef7-a97f-56423f2b05ea")
-		(property "Reference" "Q27"
+		(property "Reference" "D9"
 			(at 23.114 82.55 90)
 			(effects
 				(font
@@ -5572,11 +5572,11 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/46ae6068-d92d-4376-a2bb-12fabee21097"
-					(reference "Q27")
+					(reference "D9")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/e2a59e57-e0a7-421f-9f4b-bb850d3277d4"
-					(reference "Q31")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -9501,7 +9501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b1a6e39-f9a8-42a3-9855-78f7e3068008")
-		(property "Reference" "Q29"
+		(property "Reference" "D11"
 			(at 23.114 148.59 90)
 			(effects
 				(font
@@ -9596,11 +9596,11 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/46ae6068-d92d-4376-a2bb-12fabee21097"
-					(reference "Q29")
+					(reference "D11")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/e2a59e57-e0a7-421f-9f4b-bb850d3277d4"
-					(reference "Q33")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -9858,7 +9858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9eb9b536-7725-4e62-95d7-62fe0f0847e5")
-		(property "Reference" "Q30"
+		(property "Reference" "Q19"
 			(at 156.21 68.9102 0)
 			(effects
 				(font
@@ -9992,11 +9992,11 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/46ae6068-d92d-4376-a2bb-12fabee21097"
-					(reference "Q30")
+					(reference "Q19")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/e2a59e57-e0a7-421f-9f4b-bb850d3277d4"
-					(reference "Q34")
+					(reference "Q20")
 					(unit 1)
 				)
 			)
@@ -12699,7 +12699,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd439c93-86d3-4ff7-8bb6-26e2a609dbb1")
-		(property "Reference" "Q28"
+		(property "Reference" "D10"
 			(at 18.542 120.142 90)
 			(effects
 				(font
@@ -12794,11 +12794,11 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/46ae6068-d92d-4376-a2bb-12fabee21097"
-					(reference "Q28")
+					(reference "D10")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/e2a59e57-e0a7-421f-9f4b-bb850d3277d4"
-					(reference "Q32")
+					(reference "D13")
 					(unit 1)
 				)
 			)

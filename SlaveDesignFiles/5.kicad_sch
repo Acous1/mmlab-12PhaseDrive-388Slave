@@ -9244,7 +9244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D+5V_"
+		(property "Value" "D+5V"
 			(at 270.51 180.34 0)
 			(effects
 				(font
@@ -9400,7 +9400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D+5V_"
+		(property "Value" "D+5V"
 			(at 275.59 109.22 0)
 			(effects
 				(font
@@ -9477,7 +9477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D+5V_"
+		(property "Value" "D+5V"
 			(at 168.91 123.19 0)
 			(effects
 				(font
@@ -9655,15 +9655,15 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/2459a240-a838-4f99-a8e3-bcddd2c7118f"
-					(reference "Q21")
+					(reference "Q15")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/7b6f65e6-43d5-48a0-9e5f-ee189406894e"
-					(reference "Q9")
+					(reference "Q7")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/d01706bf-c4a3-44ce-b4b0-8d63c3731b08"
-					(reference "Q15")
+					(reference "Q11")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/f5e14a6f-328f-4ef9-9718-0acdc1d336f8"
@@ -10521,15 +10521,15 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/2459a240-a838-4f99-a8e3-bcddd2c7118f"
-					(reference "Q22")
+					(reference "Q16")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/7b6f65e6-43d5-48a0-9e5f-ee189406894e"
-					(reference "Q10")
+					(reference "Q8")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/d01706bf-c4a3-44ce-b4b0-8d63c3731b08"
-					(reference "Q16")
+					(reference "Q12")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/f5e14a6f-328f-4ef9-9718-0acdc1d336f8"
@@ -12170,15 +12170,15 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/2459a240-a838-4f99-a8e3-bcddd2c7118f"
-					(reference "Q20")
+					(reference "Q14")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/7b6f65e6-43d5-48a0-9e5f-ee189406894e"
-					(reference "Q8")
+					(reference "Q6")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/d01706bf-c4a3-44ce-b4b0-8d63c3731b08"
-					(reference "Q14")
+					(reference "Q10")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/f5e14a6f-328f-4ef9-9718-0acdc1d336f8"
@@ -12285,7 +12285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D+5V_"
+		(property "Value" "D+5V"
 			(at 265.43 110.49 0)
 			(effects
 				(font
@@ -12441,7 +12441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D+5V_"
+		(property "Value" "D+5V"
 			(at 275.59 167.64 0)
 			(effects
 				(font
@@ -15180,15 +15180,15 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/2459a240-a838-4f99-a8e3-bcddd2c7118f"
-					(reference "Q19")
+					(reference "Q13")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/7b6f65e6-43d5-48a0-9e5f-ee189406894e"
-					(reference "Q7")
+					(reference "Q5")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/d01706bf-c4a3-44ce-b4b0-8d63c3731b08"
-					(reference "Q13")
+					(reference "Q9")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/f5e14a6f-328f-4ef9-9718-0acdc1d336f8"
@@ -15467,7 +15467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D+5V_"
+		(property "Value" "D+5V"
 			(at 120.65 66.04 0)
 			(effects
 				(font
@@ -17025,7 +17025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D+5V_"
+		(property "Value" "D+5V"
 			(at 208.28 99.06 0)
 			(effects
 				(font
@@ -17814,7 +17814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dffbef72-3502-4f30-b2fa-70e2966d833d")
-		(property "Reference" "Q6"
+		(property "Reference" "D2"
 			(at 305.562 201.168 90)
 			(effects
 				(font
@@ -17909,19 +17909,19 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/2459a240-a838-4f99-a8e3-bcddd2c7118f"
-					(reference "Q24")
+					(reference "D8")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/7b6f65e6-43d5-48a0-9e5f-ee189406894e"
-					(reference "Q12")
+					(reference "D4")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/d01706bf-c4a3-44ce-b4b0-8d63c3731b08"
-					(reference "Q18")
+					(reference "D6")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/f5e14a6f-328f-4ef9-9718-0acdc1d336f8"
-					(reference "Q6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -18414,7 +18414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff3e99d8-b2b6-4a08-8d04-f6a27678b306")
-		(property "Reference" "Q5"
+		(property "Reference" "D1"
 			(at 305.562 142.748 90)
 			(effects
 				(font
@@ -18509,19 +18509,19 @@
 		(instances
 			(project "sheet1"
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/2459a240-a838-4f99-a8e3-bcddd2c7118f"
-					(reference "Q23")
+					(reference "D7")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/7b6f65e6-43d5-48a0-9e5f-ee189406894e"
-					(reference "Q11")
+					(reference "D3")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/d01706bf-c4a3-44ce-b4b0-8d63c3731b08"
-					(reference "Q17")
+					(reference "D5")
 					(unit 1)
 				)
 				(path "/54840d93-b842-4275-b1cb-4ec5510cbfff/f5e14a6f-328f-4ef9-9718-0acdc1d336f8"
-					(reference "Q5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
